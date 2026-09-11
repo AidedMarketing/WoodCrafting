@@ -1,0 +1,13 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["src"],
+  "locale": "en",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": ["Scrollbar"],
+  "requiredCommands": ["typecheck", "test", "build"],
+  "commands": {
+    "typecheck": "pnpm typecheck",
+    "test": "pnpm test",
+    "build": "pnpm build"
+  }
+}
